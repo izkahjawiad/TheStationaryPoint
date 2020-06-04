@@ -1,0 +1,284 @@
+.navbar{
+    background-color: white !important;
+    
+    
+}
+.navbar1{
+    margin: 10px 0px 0px 0px;
+    
+}
+
+
+
+.icon{
+    font-size:24px !important;
+    position: absolute;
+    right: 4%;
+}
+
+.icon:hover{
+    transition-duration: 0.5s;
+    color: rgb(148, 145, 145);
+}
+
+@font-face{
+    font-family: round;
+    src: url(typo-round/Typo_Round_Regular_Demo.otf);
+}
+@font-face{
+    font-family: round1;
+    src: url(typo-round/Typo_Round_Bold_Demo.otf);
+}
+
+.links li a{
+    margin: 5px 10px 0px 0px;
+}
+
+.links a{
+    font-family: round;
+    padding: 10px 20px 10px 20px !important;
+    
+}
+.links2:hover{
+    transition-duration: 0.5s;
+    background-color: rgb(175, 238, 247);
+    color: white !important;
+    border-radius: 10px;
+}
+
+
+.drop:hover{
+    background-color: rgba(255, 255, 255, 0) !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition-duration: 0.5s;
+    color: rgb(148, 145, 145) !important;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.links1{
+    font-family: round1;
+    text-decoration: none;
+    color: rgb(158, 157, 157);
+
+}
+.links1:hover{
+    text-decoration: none;
+    color: rgb(158, 157, 157);
+}
+
+.slide{
+    margin-top: 20px;
+}
+
+.item{
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 15px rgb(206, 204, 204);
+}
+.item:hover{
+    transition-duration: 0.5s;
+    background-color: rgba(241, 240, 240, 0.719);
+}
+
+.cat{
+    color: rgb(78, 76, 76);
+    font-family: round1;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.cat1{
+    font-family: round;
+    font-size: 15px;
+    padding-bottom: 15px;
+    color: rgb(84, 187, 201);
+}
+
+.cat-img{
+    border-radius: 10px;
+    padding-bottom: 40px;
+    width: 75%;
+}
+.padd{
+    margin-top: 20px;
+}
+.head{
+    text-shadow: 1px 1px 5px rgb(199, 197, 197);
+    color:  rgb(135, 218, 231);
+    padding-top: 40px;
+    font-family: round1;
+    font-size: 35px;
+}
+.All{
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.All img{
+    border-radius: 10px;
+}
+.All:hover{
+    transition-duration: 0.5s;
+    opacity: 0.7;
+}
+.footer1{
+    background-color: rgb(175, 238, 247);
+    height: 30px;
+}
+
+.footer2{
+    background-color: black;
+}
+
+.footer2-head{
+    font-family: round1;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    
+}
+
+.footer2-items{
+
+    font-family: round;
+    color: rgb(121, 118, 118);
+    font-size: 15px;
+    
+}
+.footer2-items:hover{
+    text-decoration: none;
+    transition-duration: 0.5s;
+    color: rgb(199, 197, 197);
+}
+.footer2-padd{
+    margin-bottom: 30px;
+}
+
+.follow{
+    display: inline-block !important;
+}
+.follow a{
+    font-size: 28px;
+    color: rgb(121, 118, 118);
+    padding-right: 15px;
+}
+.follow a:hover{
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: rgb(199, 197, 197);
+}
+.foo{
+    display: block;
+}
+
+.btn{
+    background-color: rgb(135, 218, 231);
+    border: none;
+}
+
+.btn i{
+    color: white;
+}
+
+.btn1{
+    font-family: round;
+}
+
+.btn1:hover{
+    
+    background-color: rgb(175, 238, 247);
+}
+
+.form-control1{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border: none;
+}
+
+
+
+
+.footer3{
+    background-color: black;
+}
+.copy{
+    font-family: round;
+    font-size: 11px;
+    color: rgb(148, 145, 145);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.line{
+    background-color: rgb(43, 42, 42);
+    width: 100%;
+    height: 1px;
+}
+.head1{
+    text-shadow: 1px 1px 5px rgb(199, 197, 197);
+    color:  rgb(67, 68, 68);
+    padding-top: 20px;
+    font-family: round1;
+    font-size: 35px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgba(212, 208, 208, 0.589);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+#myBtn:hover {
+    background-color: rgba(148, 147, 147, 0.87);
+    transition-duration: 0.5s;
+  }
+
+
+.card{
+    width: 99% !important;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.card-title{
+    font-family: round1;
+}
+.card-text{
+    font-family: round;
+}
+
+.head2{
+    background-color: rgb(188, 237, 245);
+    text-shadow: 1px 1px 5px rgb(199, 197, 197);
+    color:  rgb(254, 255, 255);
+    margin-top: 20px;
+    padding-top: 20px;
+    font-family: round1;
+    font-size: 35px;
+}
+
+.contact{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.fonts{
+    font-family: round;
+}
+
+

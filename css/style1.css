@@ -1,0 +1,184 @@
+@font-face{
+    font-family: round;
+    src: url(typo-round/Typo_Round_Regular_Demo.otf);
+}
+@font-face{
+    font-family: round1;
+    src: url(typo-round/Typo_Round_Bold_Demo.otf);
+}
+
+.cover{
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}   
+
+  
+.head{
+    text-shadow: 1px 1px 5px rgb(199, 197, 197);
+    color:  rgb(67, 68, 68);
+    font-family: round1;
+    font-size: 35px;
+}
+
+.head1{
+    
+    text-shadow: 1px 1px 5px rgb(199, 197, 197);
+    color:  rgb(135, 218, 231);
+    font-family: round1;
+    font-size: 20px;
+}
+  
+  
+  /* Style the button and place it in the middle of the container/image */
+.btn1 {
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    height: auto;
+    width: 90%;
+    font-family: round1;
+    font-size: 20px;
+}
+  
+
+
+.btn-grad {
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);
+}
+.btn-grad:hover { 
+
+    background-image: linear-gradient(to left, #DD2476 0%, #FF512F 51%, #DD2476 100%);
+    
+}
+
+.boxs{
+    margin-top: 30px;
+    box-shadow: 0px 0px 15px rgb(206, 204, 204);
+    
+    
+}
+
+.abt1{
+    width: 100%;
+    height: auto;
+}
+
+.footer1{
+    background-color: rgb(175, 238, 247);
+    height: 30px;
+    
+}
+
+.footer2{
+    background-color: black;
+}
+
+.footer2-head{
+    font-family: round1;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    
+}
+
+.footer2-items{
+
+    font-family: round;
+    color: rgb(121, 118, 118);
+    font-size: 15px;
+    
+}
+.footer2-items:hover{
+    text-decoration: none;
+    transition-duration: 0.5s;
+    color: rgb(199, 197, 197);
+}
+.footer2-padd{
+    margin-bottom: 40px;
+}
+
+.follow{
+    display: inline-block !important;
+}
+.follow a{
+    font-size: 28px;
+    color: rgb(121, 118, 118);
+    padding-right: 15px;
+}
+.follow a:hover{
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: rgb(199, 197, 197);
+}
+.foo{
+    display: block;
+}
+
+.btn{
+    background-color: rgb(135, 218, 231);
+    border: none;
+}
+
+.btn i{
+    color: white;
+}
+
+.btn1{
+    font-family: round;
+}
+
+.btn1:hover{
+    
+    background-color: rgb(175, 238, 247);
+}
+
+.form-control1{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border: none;
+}
+
+
+
+
+.footer3{
+    background-color: black;
+}
+.copy{
+    font-family: round;
+    font-size: 11px;
+    color: rgb(148, 145, 145);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.line{
+    background-color: rgb(43, 42, 42);
+    width: 100%;
+    height: 1px;
+}
+
+.bg{
+    
+    margin-bottom: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+    
+}
